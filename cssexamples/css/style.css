@@ -2,10 +2,32 @@ body{
     background-color: sienna;
     background-color: rgba(0,255,0,0.75); /*write comments in css*/ /*rgb 0-255*/
     background-color: #999999;
-    background-color:light purple;
+    background-color:rgb(199, 137, 199);
 }
 h1{
     font-family:sans-serif;
+    text-align:center;
 }
 h2{font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+}
+
+ul{
+    list-style: square;
+}
+
+ul li{
+    color: rgb(115, 204, 224)
+}
+
+li{
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    color: pink;
 }
