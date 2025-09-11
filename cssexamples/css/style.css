@@ -2,4 +2,10 @@ body{
     background-color: sienna;
     background-color: rgba(0,255,0,0.75); /*write comments in css*/ /*rgb 0-255*/
     background-color: #999999;
+    background-color:light purple;
+}
+h1{
+    font-family:sans-serif;
+}
+h2{font-family: 'Times New Roman', Times, serif;
 }
