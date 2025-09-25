@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+body{
+    background-color: sienna;
+    background-color: rgba(0,255,0,0.75); /*write comments in css*/ /*rgb 0-255*/
+    background-color: #999999;
+    background-color:rgb(199, 137, 199);
+}
+h1{
+    font-family:"Satisfy", sans-serif;
+    text-align:center;
+    font-weight: 100;
+
+}
+h2{font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+}
+
+ul{
+    list-style: square;
+}
+
+ul li{
+    color: rgb(115, 204, 224);
+}
+
+li{
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    color: pink;
+}
+img{
+    height: 300px;
+}
+
+.pink{ 
+    color: pink;
+}
+
+.blue{
+    color:rgb(34, 192, 249);
+}
+
+nav{ 
+    width: 400px;
+    margin:0 auto;
+}
+
+nav ul{ 
+    padding: 0;
+    margin:0;
+    text-align: center;
+}
+nav ul li{
+    list-style: none;
+    display:inline-block;
+    margin-left:50px;
+    text-decoration: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-family: "Satisfy", cursive;
+    font-size: 20px;
+    font-weight: 900;
+    color:rgb(115, 204, 224);
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.imageGallery{
+    height:300px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.imageGallery:hover{
+    transform: scale(1.5);
+}
